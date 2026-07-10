@@ -13,7 +13,7 @@ const billSchema = z.object({ accountId: z.string().min(1), biller: z.string().m
 const airtimeSchema = z.object({ accountId: z.string().min(1), network: z.string().min(2), phone: z.string().min(6), amount: z.coerce.number().positive() });
 const supportSchema = z.object({ subject: z.string().min(3), message: z.string().min(10), priority: z.string().default("normal") });
 
-export async function transferFunds(_: unknown, formData: FormData): Promise<void> {
+export async function transferFunds(formData: FormData): Promise<void> {
   const user = await requireUser();
   const payload = transferSchema.parse(Object.fromEntries(formData.entries()));
   if (!hasSupabaseEnv) {
@@ -28,7 +28,7 @@ export async function transferFunds(_: unknown, formData: FormData): Promise<voi
   revalidatePath("/dashboard/transfers");
 }
 
-export async function payBill(_: unknown, formData: FormData): Promise<void> {
+export async function payBill(formData: FormData): Promise<void> {
   await requireUser();
   const payload = billSchema.parse(Object.fromEntries(formData.entries()));
   if (!hasSupabaseEnv) {
@@ -43,7 +43,7 @@ export async function payBill(_: unknown, formData: FormData): Promise<void> {
   revalidatePath("/dashboard/payments");
 }
 
-export async function buyAirtime(_: unknown, formData: FormData): Promise<void> {
+export async function buyAirtime(formData: FormData): Promise<void> {
   await requireUser();
   const payload = airtimeSchema.parse(Object.fromEntries(formData.entries()));
   if (!hasSupabaseEnv) {
@@ -56,7 +56,7 @@ export async function buyAirtime(_: unknown, formData: FormData): Promise<void> 
   revalidatePath("/dashboard");
 }
 
-export async function createSupportTicket(_: unknown, formData: FormData): Promise<void> {
+export async function createSupportTicket(formData: FormData): Promise<void> {
   const user = await requireUser();
   const payload = supportSchema.parse(Object.fromEntries(formData.entries()));
   if (!hasSupabaseEnv) {
