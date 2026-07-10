@@ -1,4 +1,4 @@
-import type { Account, Notification, Profile, Transaction } from "@/lib/types";
+﻿import type { Account, Notification, Profile, Transaction } from "@/lib/types";
 
 export const demoProfile: Profile = {
   id: "demo-user",
@@ -113,3 +113,4 @@ export function userSummary() {
     change: 12.5
   };
 }
+

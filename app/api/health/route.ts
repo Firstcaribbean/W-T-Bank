@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+﻿import { NextResponse } from "next/server";
 import { createServiceSupabaseClient } from "@/lib/supabase/server";
 
 export async function GET() {
@@ -14,3 +14,4 @@ export async function GET() {
     uptime: "99.98%"
   });
 }
+

@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader } from "@/components/ui";
+﻿import { Card, CardContent, CardHeader } from "@/components/ui";
 
 const goals = [
   { name: "Emergency Fund", progress: 74 },
@@ -25,3 +25,4 @@ export default function SavingsPage() {
     </div>
   );
 }
+

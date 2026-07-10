@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, Input, Textarea, Button } from "@/components/ui";
+﻿import { Card, CardContent, CardHeader, Input, Textarea, Button } from "@/components/ui";
 import { demoNotifications } from "@/lib/mock-bank";
 import { createSupportTicket } from "@/app/actions";
 
@@ -26,3 +26,4 @@ export default function SupportPage() {
     </div>
   );
 }
+

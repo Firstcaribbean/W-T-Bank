@@ -1,4 +1,4 @@
-import { AuthForm } from "@/components/auth-form";
+﻿import { AuthForm } from "@/components/auth-form";
 
 export default function ForgotPasswordPage() {
   return (
@@ -9,3 +9,4 @@ export default function ForgotPasswordPage() {
     />
   );
 }
+

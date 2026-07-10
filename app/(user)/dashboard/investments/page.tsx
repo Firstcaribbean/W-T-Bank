@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader } from "@/components/ui";
+﻿import { Card, CardContent, CardHeader } from "@/components/ui";
 import { SimpleBar } from "@/components/charts";
 
 const holdings = [
@@ -23,3 +23,4 @@ export default function InvestmentsPage() {
     </div>
   );
 }
+

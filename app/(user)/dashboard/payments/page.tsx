@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, Button, Input } from "@/components/ui";
+﻿import { Card, CardContent, CardHeader, Button, Input } from "@/components/ui";
 import { demoTransactions } from "@/lib/mock-bank";
 import { formatCurrency } from "@/lib/utils";
 import { payBill } from "@/app/actions";
@@ -34,3 +34,4 @@ export default function PaymentsPage() {
 function HistoryRow({ title, amount, category }: any) {
   return <div className="flex items-center justify-between rounded-2xl border border-border px-4 py-3"><div><div className="font-medium">{title}</div><div className="text-xs text-muted-fg">{category}</div></div><div className="font-semibold">{formatCurrency(amount)}</div></div>;
 }
+

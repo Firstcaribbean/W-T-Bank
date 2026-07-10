@@ -1,4 +1,4 @@
-import { Button, Card, CardContent, CardHeader } from "@/components/ui";
+﻿import { Button, Card, CardContent, CardHeader } from "@/components/ui";
 import { reviewKyc } from "@/app/actions";
 
 export default function AdminKycPage() {
@@ -22,3 +22,4 @@ export default function AdminKycPage() {
     </Card>
   );
 }
+

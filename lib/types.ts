@@ -1,4 +1,4 @@
-export type Role = "admin" | "user";
+﻿export type Role = "admin" | "user";
 export type Status = "verified" | "pending" | "rejected" | "suspended";
 
 export type Profile = {
@@ -43,4 +43,5 @@ export type Notification = {
   read: boolean;
   created_at: string;
 };
+
 

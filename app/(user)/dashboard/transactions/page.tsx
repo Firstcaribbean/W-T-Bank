@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, Input, Badge } from "@/components/ui";
+﻿import { Card, CardContent, CardHeader, Input, Badge } from "@/components/ui";
 import { demoTransactions } from "@/lib/mock-bank";
 import { formatCurrency } from "@/lib/utils";
 
@@ -35,3 +35,4 @@ export default function UserTransactionsPage() {
     </div>
   );
 }
+

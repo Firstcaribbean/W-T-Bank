@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import {
   Area,
@@ -88,4 +88,5 @@ export function SimpleBar({ data, dataKey = "count", xKey = "name" }: { data: an
     </div>
   );
 }
+
 

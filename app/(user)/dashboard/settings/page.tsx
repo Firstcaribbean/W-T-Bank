@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, Input, Button } from "@/components/ui";
+﻿import { Card, CardContent, CardHeader, Input, Button } from "@/components/ui";
 import { updateProfileAction } from "@/app/actions";
 import { demoProfile } from "@/lib/mock-bank";
 
@@ -18,3 +18,4 @@ export default function SettingsPage() {
     </Card>
   );
 }
+

@@ -1,4 +1,4 @@
-import { clsx, type ClassValue } from "clsx";
+﻿import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 
 export function cn(...inputs: ClassValue[]) {
@@ -18,8 +18,8 @@ export function formatCurrency(
 }
 
 export function maskAccountNumber(accountNumber?: string | null) {
-  if (!accountNumber) return "••••";
-  return `•••• ${accountNumber.slice(-4)}`;
+  if (!accountNumber) return "â€¢â€¢â€¢â€¢";
+  return `â€¢â€¢â€¢â€¢ ${accountNumber.slice(-4)}`;
 }
 
 export function initials(name?: string | null) {
@@ -38,3 +38,4 @@ export function greetingForHour(date = new Date()) {
   if (hour < 18) return "Good afternoon";
   return "Good evening";
 }
+

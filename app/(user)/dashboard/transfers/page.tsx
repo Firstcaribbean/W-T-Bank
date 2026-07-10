@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, Input, Label, Button } from "@/components/ui";
+﻿import { Card, CardContent, CardHeader, Input, Label, Button } from "@/components/ui";
 import { demoTransactions } from "@/lib/mock-bank";
 import { formatCurrency } from "@/lib/utils";
 import { transferFunds } from "@/app/actions";
@@ -42,3 +42,4 @@ export default function TransfersPage() {
 function Field({ label, children }: { label: string; children: React.ReactNode }) {
   return <label><div className="mb-2 text-sm font-medium">{label}</div>{children}</label>;
 }
+

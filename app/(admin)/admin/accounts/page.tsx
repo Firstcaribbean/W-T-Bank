@@ -1,4 +1,4 @@
-import { Button, Card, CardContent, CardHeader, Input } from "@/components/ui";
+﻿import { Button, Card, CardContent, CardHeader, Input } from "@/components/ui";
 import { demoAccounts } from "@/lib/mock-bank";
 import { formatCurrency } from "@/lib/utils";
 
@@ -18,3 +18,4 @@ export default function AdminAccountsPage() {
     </Card>
   );
 }
+

@@ -1,4 +1,4 @@
-# W&T BET Bank
+﻿# W&T BET Bank
 
 A production-oriented fintech web platform built with Next.js 14, Supabase, Tailwind CSS, and React Query. The repo contains one app with two route groups:
 
@@ -87,3 +87,4 @@ If the Supabase environment variables are not present, the app falls back to loc
 - Connect the auth pages to a live Supabase project.
 - Run the migration and seed SQL.
 - Replace demo-only pages with live queries where desired.
+

@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, Input, Button } from "@/components/ui";
+﻿import { Card, CardContent, CardHeader, Input, Button } from "@/components/ui";
 
 export default function LoansPage() {
   return (
@@ -29,3 +29,4 @@ export default function LoansPage() {
     </div>
   );
 }
+

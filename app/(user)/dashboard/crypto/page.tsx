@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader } from "@/components/ui";
+﻿import { Card, CardContent, CardHeader } from "@/components/ui";
 
 const holdings = [
   ["Bitcoin", "0.42 BTC"],
@@ -15,3 +15,4 @@ export default function CryptoPage() {
     </div>
   );
 }
+

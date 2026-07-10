@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import { useState } from "react";
@@ -205,3 +205,4 @@ function StatusLine({ icon: Icon, label, value, tone }: any) {
     </div>
   );
 }
+

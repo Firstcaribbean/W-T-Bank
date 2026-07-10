@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, Input, Button } from "@/components/ui";
+﻿import { Card, CardContent, CardHeader, Input, Button } from "@/components/ui";
 
 export default function AdminSettingsPage() {
   return (
@@ -12,3 +12,4 @@ export default function AdminSettingsPage() {
     </Card>
   );
 }
+

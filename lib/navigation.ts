@@ -1,4 +1,4 @@
-import {
+﻿import {
   Banknote,
   Bell,
   BriefcaseBusiness,
@@ -57,4 +57,5 @@ export const adminNav: NavItem[] = [
   { href: "/admin/settings", label: "Settings", icon: Settings },
   { href: "/admin/logs", label: "Logs", icon: MessageSquareText }
 ];
+
 

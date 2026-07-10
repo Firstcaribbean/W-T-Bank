@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, Button } from "@/components/ui";
+﻿import { Card, CardContent, CardHeader, Button } from "@/components/ui";
 
 export default function AdminSecurityPage() {
   return (
@@ -11,3 +11,4 @@ export default function AdminSecurityPage() {
     </Card>
   );
 }
+

@@ -1,4 +1,4 @@
-create extension if not exists "pgcrypto";
+﻿create extension if not exists "pgcrypto";
 
 create or replace function public.touch_updated_at()
 returns trigger
@@ -383,3 +383,4 @@ begin
   on conflict (pair) do update set rate = excluded.rate, change_pct = excluded.change_pct, updated_at = now();
 end;
 $$;
+

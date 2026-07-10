@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, Input, Textarea, Button } from "@/components/ui";
+﻿import { Card, CardContent, CardHeader, Input, Textarea, Button } from "@/components/ui";
 
 export default function AdminNotificationsPage() {
   return (
@@ -13,3 +13,4 @@ export default function AdminNotificationsPage() {
     </Card>
   );
 }
+

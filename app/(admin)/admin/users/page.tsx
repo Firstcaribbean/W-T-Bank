@@ -1,4 +1,4 @@
-import { Badge, Button, Card, CardContent, CardHeader } from "@/components/ui";
+﻿import { Badge, Button, Card, CardContent, CardHeader } from "@/components/ui";
 import { demoProfile } from "@/lib/mock-bank";
 
 export default function AdminUsersPage() {
@@ -19,3 +19,4 @@ export default function AdminUsersPage() {
     </Card>
   );
 }
+

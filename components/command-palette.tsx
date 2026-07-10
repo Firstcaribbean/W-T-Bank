@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { Command } from "cmdk";
 import { useMemo } from "react";
@@ -75,3 +75,4 @@ export function CommandPalette({
     </div>
   );
 }
+

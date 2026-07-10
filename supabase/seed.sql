@@ -1,4 +1,4 @@
-set timezone = 'UTC';
+﻿set timezone = 'UTC';
 
 truncate table
   public.audit_logs,
@@ -149,3 +149,4 @@ select
   jsonb_build_object('row', gs),
   now() - make_interval(days => (random() * 10)::int)
 from generate_series(1, 18) gs;
+

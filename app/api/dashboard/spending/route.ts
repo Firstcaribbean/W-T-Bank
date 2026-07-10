@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from "next/server";
+﻿import { NextRequest, NextResponse } from "next/server";
 import { spendingByCategory } from "@/lib/mock-bank";
 
 export async function GET(request: NextRequest) {
@@ -8,3 +8,4 @@ export async function GET(request: NextRequest) {
   const adjusted = data.map((item) => ({ ...item, amount: Math.round(item.amount * factor) }));
   return NextResponse.json({ data: adjusted, total: adjusted.reduce((sum, item) => sum + item.amount, 0) });
 }
+

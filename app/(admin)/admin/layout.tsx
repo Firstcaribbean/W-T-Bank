@@ -1,4 +1,4 @@
-import { AppShell } from "@/components/app-shell";
+﻿import { AppShell } from "@/components/app-shell";
 import { requireAdmin } from "@/lib/auth";
 import { demoAdminProfile, demoNotifications } from "@/lib/mock-bank";
 
@@ -22,3 +22,4 @@ export default async function AdminLayout({ children }: { children: React.ReactN
     </AppShell>
   );
 }
+

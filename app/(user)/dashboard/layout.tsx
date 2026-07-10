@@ -1,4 +1,4 @@
-import { AppShell } from "@/components/app-shell";
+﻿import { AppShell } from "@/components/app-shell";
 import { requireUser } from "@/lib/auth";
 import { demoNotifications, demoProfile } from "@/lib/mock-bank";
 
@@ -21,3 +21,4 @@ export default async function DashboardLayout({ children }: { children: React.Re
     </AppShell>
   );
 }
+

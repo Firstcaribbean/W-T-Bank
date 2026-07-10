@@ -1,4 +1,4 @@
-"use client";
+ï»¿"use client";
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
@@ -49,7 +49,7 @@ function StatCard({
           <div>
             <p className={accent ? "text-sm text-blue-100" : "text-sm text-muted-fg"}>{label}</p>
             <h3 className="mt-2 text-2xl font-semibold tracking-tight">
-              {balanceHidden ? "••••••" : formatCurrency(value)}
+              {balanceHidden ? "â€¢â€¢â€¢â€¢â€¢â€¢" : formatCurrency(value)}
             </h3>
             <p className={accent ? "mt-2 text-xs text-blue-100" : "mt-2 text-xs text-muted-fg"}>{maskAccountNumber(accountNumber)}</p>
           </div>
@@ -78,7 +78,7 @@ function MoneyRow({ tx, hidden }: { tx: Transaction; hidden: boolean }) {
       </div>
       <div className="text-right">
         <div className={isCredit ? "font-semibold text-emerald-600" : "font-semibold text-red-600"}>
-          {hidden ? "••••••" : formatCurrency(Math.abs(tx.amount))}
+          {hidden ? "â€¢â€¢â€¢â€¢â€¢â€¢" : formatCurrency(Math.abs(tx.amount))}
         </div>
         <Badge tone="neutral" className="mt-1">{tx.category}</Badge>
       </div>
@@ -393,3 +393,4 @@ function ActionButton({ icon: Icon, label, href, onClick }: { icon: React.Compon
   if (href) return <Link href={href}>{content}</Link>;
   return <button type="button" onClick={onClick} className="text-left">{content}</button>;
 }
+

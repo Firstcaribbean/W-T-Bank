@@ -1,4 +1,4 @@
-import { createSupabaseServerClient } from "@/lib/supabase/server";
+﻿import { createSupabaseServerClient } from "@/lib/supabase/server";
 import { demoAccounts, demoCards, demoExchangeRates, demoNotifications, demoProfile, demoTransactions, spendingByCategory, adminKpiSnapshot } from "@/lib/mock-bank";
 import { getProfile } from "@/lib/auth";
 
@@ -128,3 +128,4 @@ export async function getAdminDashboardData() {
     }
   };
 }
+

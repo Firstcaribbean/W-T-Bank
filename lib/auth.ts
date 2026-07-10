@@ -1,4 +1,4 @@
-import { redirect } from "next/navigation";
+﻿import { redirect } from "next/navigation";
 import { createSupabaseServerClient } from "./supabase/server";
 import { demoAdminProfile, demoProfile } from "@/lib/mock-bank";
 
@@ -42,3 +42,4 @@ export async function requireAdmin() {
   if (profile.role !== "admin") redirect("/dashboard");
   return profile;
 }
+

@@ -1,4 +1,4 @@
-import { Badge, Button, Card, CardContent, CardHeader, Input, Label } from "@/components/ui";
+﻿import { Badge, Button, Card, CardContent, CardHeader, Input, Label } from "@/components/ui";
 import { demoAccounts } from "@/lib/mock-bank";
 import { formatCurrency, maskAccountNumber } from "@/lib/utils";
 
@@ -44,3 +44,4 @@ export default function AccountsPage() {
 function Field({ label, children }: { label: string; children: React.ReactNode }) {
   return <label><div className="mb-2 text-sm font-medium">{label}</div>{children}</label>;
 }
+
